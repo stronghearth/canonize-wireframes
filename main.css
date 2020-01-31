@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Open Sans",
+    sans-serif; 
+    font-size: 20px;
+    color: #444;
+    text-align: center;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  nav,
+  footer {
+    padding: 1% 0;
+    background-color: #aaa;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+  }
+
+  i.fa-book-open, .fa-bars {
+     font-size: 20px;
+     padding: 5px;
+  }
+
+  ul {
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+  }
+
+  ul.expCharTraits {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: flex-start;
+  }
+
+  li {
+      padding: 5px;
+      font-size: 20px;
+  }
+
+  ul.characterResults {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+
+
+  header {
+    padding: 12% 0;
+  }
+  
+  section {
+    min-height: 200px;
+    padding: 6% 0;
+    background-color: #bbb;
+  }
+
+  fieldset.leftForm, fieldset.rightForm {
+    border-style: none;
+  }
+
+  label.newCharacter {
+    margin-bottom: 20px;
+  }
+
+  input.newCharacter {
+    width: 75%;
+    height: 25px;
+    margin-bottom: 20px;
+  }
+
+  .artwork {
+    width: 67%;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  textarea.newCharacter {
+    width: 75%;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+  
+  section:nth-child(even) {
+    background-color: #ddd;
+  }
